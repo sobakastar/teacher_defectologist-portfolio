@@ -175,7 +175,7 @@ header .navbar ul li a:hover {
 }
 /* hamburger icon ends */
 
-/* hero section starts*/
+/* HERO section starts*/
 .home {
   position: relative;
   display: flex;
@@ -272,7 +272,8 @@ header .navbar ul li a:hover {
 /* social icons start */
 .socials {
   position: relative;
-  margin-top: 9rem;
+  /* margin-top: 9rem; */
+  margin-top: 4rem;
 }
 .socials .social-icons {
   padding-left: 0;
@@ -345,7 +346,7 @@ header .navbar ul li a:hover {
 /* hero media queries ends*/
 /* hero section end */
 
-/* about section starts */
+/* ABOUT section starts */
 .about {
   background: rgb(219, 216, 216);
 }
@@ -464,7 +465,8 @@ header .navbar ul li a:hover {
   min-height: 80vh;
 }
 .education .qoute {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: 2rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
@@ -476,6 +478,7 @@ header .navbar ul li a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 2rem;
 }
 .education .box-container .box {
   display: flex;
@@ -571,7 +574,9 @@ header .navbar ul li a:hover {
 /* education section ends */
 
 /* experience section starts */
-
+.experience .experience-heading {
+  margin-bottom: 3.5rem;
+}
 .experience .timeline {
   position: relative;
   max-width: 1500px;
