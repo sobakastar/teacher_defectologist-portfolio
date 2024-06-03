@@ -82,6 +82,19 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
+// TypeIt - динамические эффекты пишущей машинки
+
+new TypeIt("#gratitude", {
+  strings: "",
+  speed: 75,
+  loop: true,
+  cursor: false
+})
+.pause(1500)
+.go();
+
+// end of TypeIt-динамические эффекты пишущей машинки
+
 // async function fetchData(type = "skills") {
 //     let response
 //     type === "skills" ?
